@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/mainBackground" >
+
+        <ImageView
+            android:id="@+id/mainLogo"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+			android:layout_weight=".2"
+            android:adjustViewBounds="true" 
+            android:padding="10dp" 
+            android:src="@drawable/main_logo"
+            android:contentDescription="@string/mainlogodesc" />
+
+        <Button
+            android:id="@+id/mainBtnEnterData"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_weight=".15"
+            android:text="@string/mainEnterData"
+            android:onClick="entryClick" />
+        
+        <Button
+            android:id="@+id/mainBtnViewHistory"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_weight=".15"
+            android:text="@string/mainViewHistory"
+            android:onClick="historyClick" />
+        
+         <Button
+            android:id="@+id/mainBtnAbout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_weight=".15"
+            android:text="@string/mainAbout"
+            android:onClick="aboutClick" />
+
+         <LinearLayout
+             android:id="@+id/mainLinearLayoutText"
+             android:layout_width="match_parent"
+             android:layout_height="0dp"
+             android:orientation="vertical"
+             android:layout_weight=".35"
+             android:padding="20dp" >
+
+             <TextView
+                 android:id="@+id/mainTxtViewSummary"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:text="@string/mainSummary"
+                 android:textColor="#15317E" 
+                 android:textSize="@dimen/mainSummaryText"
+                 android:gravity="center_vertical|center_horizontal"/>
+
+         </LinearLayout>
+</LinearLayout>
+

@@ -1,0 +1,4 @@
+#Mon Oct 23 18:39:48 CDT 2017
+base.0=F\:\\Joe\\Documents\\Dropbox\\Android Apps\\live542181\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\9
+renamed.0=classes.dex
+file.0=F\:\\Joe\\Documents\\Dropbox\\Android Apps\\live542181\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\9\\classes.dex

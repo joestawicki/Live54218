@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="mainSummaryText">25sp</dimen>
+    <dimen name="mainLogoLand">50dp</dimen>
+    <dimen name="entryPageTextBoxHeight">35dp</dimen>
+    <dimen name="entryPageLeftMargin">15dp</dimen>
+    <dimen name="entryPageRightMargin">15dp</dimen>
+    <dimen name="historyDateMargin">5dp</dimen>
+    <dimen name="historyDataMargin">10dp</dimen>
+    <dimen name="entryPageTextSize">16dp</dimen>
+    
+</resources>

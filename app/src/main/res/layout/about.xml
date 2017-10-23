@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/entryBackground"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/mainLogo"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/mainlogodesc"
+        android:padding="10dp"
+        android:src="@drawable/main_logo" />
+
+    <TextView
+        android:id="@+id/aboutPart1TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about54218"
+        android:textColor="@color/appTextColor"
+        android:layout_weight="0"
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+        android:layout_margin="5dip"/>
+    
+    <TextView
+        android:id="@+id/aboutPart2TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about54218p2"
+        android:textColor="@color/appTextColor"
+        android:layout_weight="0"
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+        android:layout_margin="5dip"/>
+    
+    <TextView
+        android:id="@+id/aboutPart3TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about54218p3"
+        android:textColor="@color/appTextColor"
+        android:layout_weight="0"
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+        android:layout_margin="5dip"/>
+
+</LinearLayout>

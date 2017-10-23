@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/mainBackground" >
+
+    <ImageView
+        android:id="@+id/mainLogo"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mainLogoLand"
+        android:src="@drawable/main_logo"
+        android:adjustViewBounds="true" 
+        android:padding="10dp" 
+        android:contentDescription="@string/mainlogodesc"
+        android:layout_gravity="center"
+        android:layout_weight=".1" />
+
+    <LinearLayout
+        android:id="@+id/mainLinearLayoutHor"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight=".9" >
+
+        <LinearLayout
+            android:id="@+id/mainLinearLayoutVer"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight=".5" >
+            
+             <Button
+            	android:id="@+id/mainBtnEnterData"
+            	android:layout_width="match_parent"
+            	android:layout_height="0dp"
+            	android:layout_marginTop="15dp"
+            	android:layout_marginLeft="25dp"
+            	android:layout_marginRight="25dp"
+            	android:layout_weight="1"
+            	android:text="@string/mainEnterData"
+            	android:onClick="entryClick" />
+        
+        	<Button
+            	android:id="@+id/mainBtnViewHistory"
+            	android:layout_width="match_parent"
+            	android:layout_height="0dp"
+            	android:layout_marginTop="10dp"
+            	android:layout_marginLeft="25dp"
+            	android:layout_marginRight="25dp"
+            	android:layout_weight="1"
+            	android:text="@string/mainViewHistory"
+            	android:onClick="historyClick" />
+        
+         	<Button
+            	android:id="@+id/mainBtnAbout"
+            	android:layout_width="match_parent"
+            	android:layout_height="0dp"
+            	android:layout_marginTop="10dp"
+            	android:layout_marginLeft="25dp"
+            	android:layout_marginRight="25dp"
+            	android:layout_marginBottom="20dp"
+            	android:layout_weight="1"
+            	android:text="@string/mainAbout"
+            	android:onClick="aboutClick" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/mainTxtViewSummary"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/mainSummary" 
+            android:layout_weight=".5"
+            android:textColor="#15317E" 
+            android:textSize="25sp"
+            android:gravity="center_vertical|center_horizontal"/>
+
+    </LinearLayout>
+
+</LinearLayout>

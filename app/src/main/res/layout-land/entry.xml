@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/entryBackground"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/fruitLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textViewFruit"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:textColor="@color/entryTextColor"
+            android:text="@string/fruit"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="@dimen/entryPageLeftMargin"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/editTextFruit"
+            android:layout_width="0dip"
+            android:layout_height="@dimen/entryPageTextBoxHeight"
+            android:layout_weight="1"
+            android:layout_marginRight="@dimen/entryPageRightMargin"
+            android:layout_marginTop="10dip"
+            android:layout_marginLeft="33dip"
+            android:inputType="number" 
+            android:textSize="@dimen/entryPageTextSize">
+
+            <requestFocus />
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/waterLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textViewWater"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:text="@string/water"
+            android:textColor="@color/entryTextColor"
+            android:layout_marginLeft="@dimen/entryPageLeftMargin"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/editTextWater"
+            android:layout_width="0dip"
+            android:layout_height="@dimen/entryPageTextBoxHeight"
+            android:layout_weight="1"
+            android:layout_marginRight="@dimen/entryPageRightMargin"
+            android:layout_marginLeft="45dip"
+            android:inputType="number"
+            android:textSize="@dimen/entryPageTextSize" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/screenLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textViewScreen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/screen"
+            android:textColor="@color/entryTextColor"
+            android:layout_marginLeft="@dimen/entryPageLeftMargin"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/editTextScreen"
+            android:layout_width="0dip"
+            android:layout_height="@dimen/entryPageTextBoxHeight"
+            android:layout_weight="1"
+            android:layout_marginRight="@dimen/entryPageRightMargin"
+            android:layout_marginLeft="5dip"
+            android:inputType="number"
+            android:textSize="@dimen/entryPageTextSize" />
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/exerciseLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textViewExercise"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/exercise"
+            android:textColor="@color/entryTextColor"
+            android:layout_marginLeft="@dimen/entryPageLeftMargin"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/editTextExercise"
+            android:layout_width="0dip"
+            android:layout_height="@dimen/entryPageTextBoxHeight"
+            android:layout_weight="1"
+            android:layout_marginRight="@dimen/entryPageRightMargin"
+            android:layout_marginLeft="42dip"
+            android:inputType="number"
+            android:textSize="@dimen/entryPageTextSize" />
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/sleepLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textViewSleep"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sleep"
+            android:textColor="@color/entryTextColor"
+            android:layout_marginLeft="@dimen/entryPageLeftMargin"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/editTextSleep"
+            android:layout_width="0dip"
+            android:layout_height="@dimen/entryPageTextBoxHeight"
+            android:layout_weight="1"
+            android:layout_marginRight="@dimen/entryPageRightMargin"
+            android:layout_marginLeft="55dip"
+            android:inputType="number"
+            android:textSize="@dimen/entryPageTextSize" />
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/dateLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        
+        <TextView
+            android:id="@+id/textViewDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:text="@string/date"
+            android:layout_marginLeft="@dimen/entryPageLeftMargin"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/entryTextColor" />
+
+        <TextView
+            android:id="@+id/editTextDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/defaultDate"
+            android:layout_weight="1"
+            android:textSize="6pt"
+            android:inputType="date" />
+
+        <TextView
+            android:id="@+id/textViewWeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/weight"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/entryTextColor" />
+
+        <EditText
+            android:id="@+id/editTextWeight"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/entryPageTextBoxHeight"
+            android:layout_weight="1"
+            android:hint="@string/optional"
+            android:textSize="@dimen/entryPageTextSize"
+            android:layout_marginRight="@dimen/entryPageRightMargin"
+            android:inputType="number" />
+        
+        
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/entrySaveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/save"
+        android:onClick="saveClick" />
+
+</LinearLayout>

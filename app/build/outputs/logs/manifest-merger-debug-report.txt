@@ -1,0 +1,95 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\Joe\Documents\Dropbox\Android Apps\live542181\app\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from F:\Joe\Documents\Dropbox\Android Apps\live542181\app\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from F:\Joe\Documents\Dropbox\Android Apps\live542181\app\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from F:\Joe\Documents\Dropbox\Android Apps\live542181\app\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from F:\Joe\Documents\Dropbox\Android Apps\live542181\app\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from F:\Joe\Documents\Dropbox\Android Apps\live542181\app\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from F:\Joe\Documents\Dropbox\Android Apps\live542181\app\src\main\AndroidManifest.xml:2:1-49:12
+	package
+		ADDED from F:\Joe\Documents\Dropbox\Android Apps\live542181\app\src\main\AndroidManifest.xml:3:5-32
+		INJECTED from F:\Joe\Documents\Dropbox\Android Apps\live542181\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Joe\Documents\Dropbox\Android Apps\live542181\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from F:\Joe\Documents\Dropbox\Android Apps\live542181\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from F:\Joe\Documents\Dropbox\Android Apps\live542181\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Joe\Documents\Dropbox\Android Apps\live542181\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\Joe\Documents\Dropbox\Android Apps\live542181\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from F:\Joe\Documents\Dropbox\Android Apps\live542181\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from F:\Joe\Documents\Dropbox\Android Apps\live542181\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Joe\Documents\Dropbox\Android Apps\live542181\app\src\main\AndroidManifest.xml
+uses-sdk
+ADDED from F:\Joe\Documents\Dropbox\Android Apps\live542181\app\src\main\AndroidManifest.xml:7:5-44
+INJECTED from F:\Joe\Documents\Dropbox\Android Apps\live542181\app\src\main\AndroidManifest.xml:7:5-44
+INJECTED from F:\Joe\Documents\Dropbox\Android Apps\live542181\app\src\main\AndroidManifest.xml:7:5-44
+INJECTED from F:\Joe\Documents\Dropbox\Android Apps\live542181\app\src\main\AndroidManifest.xml:7:5-44
+INJECTED from F:\Joe\Documents\Dropbox\Android Apps\live542181\app\src\main\AndroidManifest.xml:7:5-44
+	android:targetSdkVersion
+		INJECTED from F:\Joe\Documents\Dropbox\Android Apps\live542181\app\src\main\AndroidManifest.xml
+		ADDED from F:\Joe\Documents\Dropbox\Android Apps\live542181\app\src\main\AndroidManifest.xml:7:5-44
+		INJECTED from F:\Joe\Documents\Dropbox\Android Apps\live542181\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from F:\Joe\Documents\Dropbox\Android Apps\live542181\app\src\main\AndroidManifest.xml:7:15-41
+		INJECTED from F:\Joe\Documents\Dropbox\Android Apps\live542181\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Joe\Documents\Dropbox\Android Apps\live542181\app\src\main\AndroidManifest.xml
+application
+ADDED from F:\Joe\Documents\Dropbox\Android Apps\live542181\app\src\main\AndroidManifest.xml:9:5-48:19
+	android:label
+		ADDED from F:\Joe\Documents\Dropbox\Android Apps\live542181\app\src\main\AndroidManifest.xml:11:9-41
+	android:icon
+		ADDED from F:\Joe\Documents\Dropbox\Android Apps\live542181\app\src\main\AndroidManifest.xml:10:9-45
+activity#edu.snc.live54218.main
+ADDED from F:\Joe\Documents\Dropbox\Android Apps\live542181\app\src\main\AndroidManifest.xml:12:9-20:20
+	android:label
+		ADDED from F:\Joe\Documents\Dropbox\Android Apps\live542181\app\src\main\AndroidManifest.xml:14:13-45
+	android:theme
+		ADDED from F:\Joe\Documents\Dropbox\Android Apps\live542181\app\src\main\AndroidManifest.xml:15:13-60
+	android:name
+		ADDED from F:\Joe\Documents\Dropbox\Android Apps\live542181\app\src\main\AndroidManifest.xml:13:13-33
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from F:\Joe\Documents\Dropbox\Android Apps\live542181\app\src\main\AndroidManifest.xml:16:13-19:29
+action#android.intent.action.MAIN
+ADDED from F:\Joe\Documents\Dropbox\Android Apps\live542181\app\src\main\AndroidManifest.xml:17:17-69
+	android:name
+		ADDED from F:\Joe\Documents\Dropbox\Android Apps\live542181\app\src\main\AndroidManifest.xml:17:25-66
+category#android.intent.category.LAUNCHER
+ADDED from F:\Joe\Documents\Dropbox\Android Apps\live542181\app\src\main\AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from F:\Joe\Documents\Dropbox\Android Apps\live542181\app\src\main\AndroidManifest.xml:18:27-74
+activity#edu.snc.live54218.history
+ADDED from F:\Joe\Documents\Dropbox\Android Apps\live542181\app\src\main\AndroidManifest.xml:22:9-26:20
+	android:label
+		ADDED from F:\Joe\Documents\Dropbox\Android Apps\live542181\app\src\main\AndroidManifest.xml:24:13-50
+	android:configChanges
+		ADDED from F:\Joe\Documents\Dropbox\Android Apps\live542181\app\src\main\AndroidManifest.xml:25:13-63
+	android:name
+		ADDED from F:\Joe\Documents\Dropbox\Android Apps\live542181\app\src\main\AndroidManifest.xml:23:13-36
+activity#edu.snc.live54218.about
+ADDED from F:\Joe\Documents\Dropbox\Android Apps\live542181\app\src\main\AndroidManifest.xml:28:9-31:20
+	android:label
+		ADDED from F:\Joe\Documents\Dropbox\Android Apps\live542181\app\src\main\AndroidManifest.xml:30:13-44
+	android:name
+		ADDED from F:\Joe\Documents\Dropbox\Android Apps\live542181\app\src\main\AndroidManifest.xml:29:13-34
+activity#edu.snc.live54218.entry
+ADDED from F:\Joe\Documents\Dropbox\Android Apps\live542181\app\src\main\AndroidManifest.xml:33:9-36:20
+	android:label
+		ADDED from F:\Joe\Documents\Dropbox\Android Apps\live542181\app\src\main\AndroidManifest.xml:35:13-47
+	android:name
+		ADDED from F:\Joe\Documents\Dropbox\Android Apps\live542181\app\src\main\AndroidManifest.xml:34:13-34
+activity#edu.snc.live54218.dateOptions
+ADDED from F:\Joe\Documents\Dropbox\Android Apps\live542181\app\src\main\AndroidManifest.xml:38:10-42:20
+	android:label
+		ADDED from F:\Joe\Documents\Dropbox\Android Apps\live542181\app\src\main\AndroidManifest.xml:40:13-71
+	android:configChanges
+		ADDED from F:\Joe\Documents\Dropbox\Android Apps\live542181\app\src\main\AndroidManifest.xml:41:13-63
+	android:name
+		ADDED from F:\Joe\Documents\Dropbox\Android Apps\live542181\app\src\main\AndroidManifest.xml:39:13-40
+activity#edu.snc.live54218.historyCalendar
+ADDED from F:\Joe\Documents\Dropbox\Android Apps\live542181\app\src\main\AndroidManifest.xml:44:9-47:20
+	android:label
+		ADDED from F:\Joe\Documents\Dropbox\Android Apps\live542181\app\src\main\AndroidManifest.xml:46:13-57
+	android:name
+		ADDED from F:\Joe\Documents\Dropbox\Android Apps\live542181\app\src\main\AndroidManifest.xml:45:13-44

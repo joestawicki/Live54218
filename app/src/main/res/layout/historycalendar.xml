@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/historyCalendarBackground"
+    android:id="@+id/historyCalendarMainView">
+    
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/historyCalendarHeader"
+    	android:orientation="horizontal"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:background="@color/historyCalendarBackgroundTitle"
+    	android:layout_marginBottom="2dp">
+    	
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    		android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		android:gravity="left">
+    
+			<TextView  
+				android:id="@+id/historyCalendarPrevious" 
+    			android:layout_height="wrap_content"
+    			android:layout_width="wrap_content"
+    			android:padding="5dp"
+    			android:paddingLeft="5dp"
+    			android:textSize="14sp"
+    			android:textStyle="bold"
+    			android:textColor="@color/historyCalendarTextColor"
+    			android:gravity="center_horizontal"
+    			android:text="@string/historyCalendarPrevious" 
+    			android:clickable="true"/>
+		</LinearLayout>
+
+		<TextView  
+			android:id="@+id/HistoryCalendarTitle" 
+    		android:layout_height="wrap_content"
+    		android:layout_width="wrap_content"
+    		android:layout_centerHorizontal="true"
+    		android:padding="5dp"
+    		android:paddingLeft="5dp"
+    		android:textSize="14sp"
+    		android:textStyle="bold"
+    		android:textColor="@color/historyCalendarTextColor"
+    		android:gravity="center_horizontal"
+    		android:layout_toRightOf="@+id/previous"/>
+	
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    		android:layout_width="fill_parent"
+   			android:layout_height="wrap_content"
+    		android:gravity="right"
+    		android:layout_toRightOf="@+id/title">
+			
+			<TextView  
+				android:id="@+id/historyCalendarNext" 
+    			android:layout_height="wrap_content"
+    			android:layout_width="wrap_content"
+    			android:padding="5dp"
+    			android:paddingLeft="5dp"
+    			android:textSize="14sp"
+    			android:textStyle="bold"
+    			android:textColor="@color/historyCalendarTextColor"
+    			android:gravity="center_horizontal"
+    			android:text="@string/historyCalendarNext"
+    			android:clickable="true"/>
+		</LinearLayout>
+	</RelativeLayout>
+	
+	<GridView
+	    xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:id="@+id/historyCalendarGridview"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:gravity="center"
+	    android:horizontalSpacing="1dp"
+	    android:numColumns="7"
+	    android:stretchMode="columnWidth"
+	    android:verticalSpacing="1dp"
+	    android:listSelector="@null"/>
+</LinearLayout>

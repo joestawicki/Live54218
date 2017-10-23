@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="mainBackground">#FFFFFF</color>
+    <color name="entryBackground">#FFFFFF</color>
+    <color name="entryTextColor">#000000</color>
+    <color name="historyBackground">#FFFFFF</color>
+    <color name="historyTextColor">#000000</color>
+    <color name="historyHeaderTextColor">#0000FF</color>
+    <color name="appBackground">#FFFFFF</color>
+    <color name="appTextColor">#000000</color>
+    <color name="green">#99FF99</color>
+    <color name="red">#FF9999</color>
+    <color name="historyCalendarBackground">#000000</color>
+    <color name="historyCalendarBackgroundTitle">#A32227</color>
+    <color name="historyCalendarTextColor">#FFFFFF</color>
+
+</resources>

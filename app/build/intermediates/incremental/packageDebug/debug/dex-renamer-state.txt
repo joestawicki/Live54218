@@ -1,0 +1,19 @@
+#Mon Oct 23 18:39:48 CDT 2017
+renamed.5=classes6.dex
+renamed.4=classes5.dex
+renamed.3=classes4.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+base.5=F\:\\Joe\\Documents\\Dropbox\\Android Apps\\live542181\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\13
+base.4=F\:\\Joe\\Documents\\Dropbox\\Android Apps\\live542181\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\16
+base.3=F\:\\Joe\\Documents\\Dropbox\\Android Apps\\live542181\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\11
+base.2=F\:\\Joe\\Documents\\Dropbox\\Android Apps\\live542181\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\14
+base.1=F\:\\Joe\\Documents\\Dropbox\\Android Apps\\live542181\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\12
+base.0=F\:\\Joe\\Documents\\Dropbox\\Android Apps\\live542181\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\15
+file.5=F\:\\Joe\\Documents\\Dropbox\\Android Apps\\live542181\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\13\\classes.dex
+file.4=F\:\\Joe\\Documents\\Dropbox\\Android Apps\\live542181\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\16\\classes.dex
+file.3=F\:\\Joe\\Documents\\Dropbox\\Android Apps\\live542181\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\11\\classes.dex
+file.2=F\:\\Joe\\Documents\\Dropbox\\Android Apps\\live542181\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\14\\classes.dex
+file.1=F\:\\Joe\\Documents\\Dropbox\\Android Apps\\live542181\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\12\\classes.dex
+file.0=F\:\\Joe\\Documents\\Dropbox\\Android Apps\\live542181\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\15\\classes.dex
